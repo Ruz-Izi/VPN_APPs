@@ -1,22 +1,30 @@
-<!-- This is the SHARED template. {{ content }} is replaced by each page's own body -->
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }}</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <img class="logo" src="/assets/logo.png">
-      <h1 class="brand-title">RuzVeep VPN</h1>
-    </div>
-
-    {{ content }}
-
-    <footer>RuzVeep &copy; 2026</footer>
+<div class="container">
+  <div class="header">
+    <img class="logo" src="{{ '/assets/logo.png' | relative_url }}">
+    <div class="brand-title">RuzVeep <span class="ltr">VPN</span></div>
+    <div class="tagline">{{ page.title }}</div>
   </div>
+
+  {{ content }}
+
+  <div class="contact">
+    <div class="contact-card">
+      <div class="icon">📞</div>
+      <div class="label">تماس با ما</div>
+    </div>
+  </div>
+
+  <footer>© RuzVeep 2026</footer>
+</div>
 </body>
 </html>
