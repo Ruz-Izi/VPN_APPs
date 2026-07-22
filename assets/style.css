@@ -204,7 +204,7 @@
 .contact-icon {
   width: 60px;
   height: 60px;
-  border-radius: 20% !important;
+  border-radius: 50% !important;
   object-fit: cover;
   margin-bottom: 8px;
 }
