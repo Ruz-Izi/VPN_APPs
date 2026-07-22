@@ -182,46 +182,51 @@
         margin-top: 22px;
         line-height: 1.8;
       }
-      .contact {
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-      }
-      .contact-card {
-        background: linear-gradient(
-          145deg,
-          rgba(30, 20, 60, 0.6),
-          rgba(10, 10, 25, 0.8)
-        );
-        border: 1px solid rgba(120, 100, 255, 0.3);
-        border-radius: 18px;
-        padding: 18px 26px;
-        text-align: center;
-        min-width: 220px;
-        box-shadow: 0 6px 24px rgba(50, 20, 120, 0.3);
-      }
-      .contact-card .icon {
-        font-size: 1.8rem;
-        margin-bottom: 8px;
-      }
-      .contact-card .label {
-        font-weight: 700;
-        color: #f0f0ff;
-        margin-bottom: 6px;
-      }
-      .contact-card .value {
-        direction: ltr;
-        text-align: center;
-        color: #38d9ff;
-        font-weight: 600;
-        text-decoration: none;
-        display: inline-block;
-      }
-      .contact-card .value:hover {
-        color: #7b5cff;
-      }
+
+    .contact {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  background: linear-gradient(145deg, rgba(30, 20, 60, 0.6), rgba(10, 10, 25, 0.8));
+  border: 1px solid rgba(120, 100, 255, 0.3);
+  border-radius: 18px;
+  padding: 18px 26px;
+  text-align: center;
+  min-width: 220px;
+  box-shadow: 0 6px 24px rgba(50, 20, 120, 0.3);
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.contact-card .label {
+  font-weight: 700;
+  color: #f0f0ff;
+  margin-bottom: 6px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #38d9ff;
+  font-weight: 600;
+  display: block;
+  margin-top: 5px;
+}
+
+.contact-link:hover {
+  color: #7b5cff;
+}
+      
       footer {
         text-align: center;
         margin-top: 34px;
@@ -234,29 +239,4 @@
 
 
 
-.contact {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.contact-card {
-  text-align: center;
-}
-
-.contact-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 8px;
-}
-
-.contact-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  margin-top: 5px;
-}
     </style>
