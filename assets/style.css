@@ -27,7 +27,7 @@
       .logo {
         width: 140px;
         height: 140px;
-        border-radius: 28px;
+        border-radius: 50%;
         box-shadow: 0 0 40px rgba(120, 90, 255, 0.55);
         margin-bottom: 14px;
       }
