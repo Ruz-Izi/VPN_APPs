@@ -228,4 +228,35 @@
         color: #5f63a0;
         font-size: 0.75rem;
       }
+
+
+
+
+
+
+.contact {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  text-align: center;
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-top: 5px;
+}
     </style>
